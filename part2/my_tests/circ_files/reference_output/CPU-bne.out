@@ -1,0 +1,5 @@
+[ERROR] An uncaught error has occurred! Here are the details that may help solve this issue.
+Error:
+`venusbackend.simulator.SimulatorError: The max number of steps (1000000) in the tracer has been reached! You can increase this in the settings or disable it by setting it to 0 or less. This is the current safty for infinitely looping programs.
+ID:
+'Trace tr Loop'!
