@@ -1,5 +1,5 @@
 jal ra label1
-addi t0, t0, 1
+addi t0, t0, 4
 label1:
-	addi t0, t0, 2
+	addi t0, t0, 5
 	
