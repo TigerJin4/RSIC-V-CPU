@@ -4,9 +4,9 @@ bne s0 s0 never_reach
 addi s0 s0 -1
 lui s1 0 #end 
 addi s1 s1 36 #end
-jalr s1
+jalr x0, s1, 0
 never_reach:
   addi s0, s0, 1
-  jal end 
+  jal x0 end 
 end:
   addi a0 a0 1
