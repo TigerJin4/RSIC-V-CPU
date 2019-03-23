@@ -1,11 +1,11 @@
-addi s1 s1 -20
-beq s0 s0 label2
-
+addi t0, x0, 4
+addi t1, x0, 5
+bne t0, t1, label1
+label1:
+        addi t0, t0, 1
+        bne t0, t1, label2
+	addi t0, x0, -3
+	addi t1, x0, -2
+	bne t0, t1, label2
 label2:
-   	bne s1 x0 end#8
-
-label1: 
-	addi s0 s0 20#9
-
-end:
-	addi a0 x0 6#12
+        addi t1, t1, 1
