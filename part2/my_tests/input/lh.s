@@ -6,3 +6,4 @@ addi t2, t2, -1234
 sw t2, 4(sp)
 lh s0, 4(sp)
 lh s1, -2(sp)
+lh s1, 2(sp)
