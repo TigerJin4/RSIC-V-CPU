@@ -363,7 +363,7 @@ This file is intended to be loaded by Logisim-evolution (https://github.com/reds
       <a name="addrWidth" val="14" />
       <a name="dataWidth" val="32" />
       <a name="contents">addr/data: 14 32
-00600293 00400313 0262B433 FFA00293 0262B4B3
+00A00293 00300313 0262B433 FFE00293 0262B4B3
 </a>
     </comp>
     <comp lib="0" loc="(1130,760)" name="Probe">
